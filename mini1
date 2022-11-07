@@ -1,0 +1,31 @@
+template = input('Enter digits 1,2 or 3 to pickup template: ')
+print(type(template))
+    print('invalid: enter a digit 1, 2 or 3')
+else:
+    if
+        int(template) == 1:
+        number = input('Input a number: ')
+        time = input('Measure of time: ')
+        vehicle = input('Mode of Transportation: ')
+        adjective = input('Input adjective: ')
+        adjective2 = input('Input adjective (feeling): ')
+        noun = input('Input noun: ')
+        color = input('Input a color: ')
+        body = input('Input Part of the Body: ')
+        verb = input('Input verb: ')
+        number2 = input('Input a number: ')
+        noun2 = input('Input a noun again: ')
+        story = f'''
+    template1:
+    It was about {number} {time} ago when I arrived at the hospital in a {vehicle}. 
+    The hospital is a/an {adjective} place, there are a lot of {adjective2} {noun}s 
+    here. There are nurses here who have {color} {body}. If someone wants to come 
+    into my room I told them that they have to {verb} first. I’ve decorated my 
+    room with {number2} {noun2}.
+    '''
+    elif int(template) == 2:
+        story = 'template2'
+    elif int(template) == 3:
+        story = 'template3'
+
+    print(story)
